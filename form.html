@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Leoardo Freitas & Gabriel Jayme" />
+    <title>jQuery Plugin</title>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/jquery.toast.css" />
+  </head>
+  <body>
+    <main>
+      <div class="col-md-12 mx-auto center">
+        <div class="row d-flex justify-content-center mb-5">
+          <h1>Formulário de cadastro</h1>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <form action="#" method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- BOOTSTRAP + JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- TOAST -->
+    <script
+      rel="script"
+      type="text/javascript"
+      src="js/jquery.toast.js"
+    ></script>
+
+    <!-- CODE SCRIPT -->
+    <script rel="script" type="text/javascript" src="js/form.js"></script>
+  </body>
+</html>
