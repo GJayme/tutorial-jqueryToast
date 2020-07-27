@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Leoardo Freitas & Gabriel Jayme" />
+    <title>jQuery Plugin</title>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="css/jquery.toast.css" />
+  </head>
+  <body>
+    <main>
+      <div class="col-md-12 mx-auto center">
+        <div class="row d-flex justify-content-center mb-5">
+          <h1>Jquery Toast Plugin Tutorial</h1>
+        </div>
+      </div>
+
+      <div class="col-md-10 mx-auto mt-5">
+        <div class="row mx-auto">
+          <div class="col-md-9">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="URL"
+              id="urlInput"
+            />
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-primary" type="submit">Buscar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-10 mx-auto mt-5">
+        <div class="row mx-auto">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Username</th>
+                <th scope="col">email</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <!-- BOOTSTRAP + JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- TOAST -->
+    <script src="js/jquery.toast.js"></script>
+
+    <!-- CODE SCRIPT -->
+    <script src="js/table.js"></script>
+  </body>
+</html>
